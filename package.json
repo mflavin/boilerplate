@@ -13,7 +13,8 @@
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "prepare": "husky"
+    "prepare": "husky",
+    "commit": "commit"
   },
   "dependencies": {
     "pinia": "^2.1.7",
@@ -21,6 +22,9 @@
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/prompt-cli": "^19.5.0",
     "@playwright/test": "^1.44.1",
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
