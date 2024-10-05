@@ -34,3 +34,9 @@ npm run format
 ```bash
 npm run commit
 ```
+
+## Folder Structure
+
+Image from [fadamakis.com](https://fadamakis.com/a-front-end-application-folder-structure-that-makes-sense-ecc0b690968b)
+
+![Project Structure](src/assets/project_structure.webp)
